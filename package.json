@@ -1,0 +1,19 @@
+{
+  "name": "fall-protocol",
+  "version": "0.1.0",
+  "description": "Fall - A modern, secure, open-source communication protocol to replace email.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"no tests yet\" && exit 0",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "keywords": ["email", "protocol", "communication", "fall", "secure"],
+  "author": "JakybDev",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.0"
+  }
+}
